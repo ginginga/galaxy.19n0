@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Official Website</title>
+    <title>GALAXY</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
@@ -22,6 +22,7 @@
             align-items: center;
             justify-content: center;
             overflow: hidden;
+            background: #000;
         }
         .hero::before {
             content: '';
@@ -30,7 +31,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('https://www.outreach.space/wp-content/uploads/2020/10/hero-image.jpg') no-repeat center center;
+            background: url('path/to/your/background.jpg') no-repeat center center;
             background-size: cover;
             z-index: -1;
             animation: moveBackground 30s linear infinite;
@@ -45,6 +46,7 @@
         }
         .carousel-item img {
             width: 100%;
+            height: auto;
         }
         .fixed-social {
             position: fixed;
@@ -56,6 +58,10 @@
         .fixed-social a {
             margin: 5px 0;
             color: #fff;
+        }
+        .fixed-social img {
+            width: 30px;
+            height: 30px;
         }
     </style>
 </head>
@@ -74,7 +80,7 @@
 
     <header class="hero">
         <div class="hero-text">
-            <h1>Welcome to My Official Website</h1>
+            <h1>GINGA OFFICIAL SITE</h1>
             <p>Discover my projects and blog posts.</p>
         </div>
     </header>
@@ -84,17 +90,17 @@
         <div id="projectCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="project1.jpg" alt="Project 1">
+                    <img src="path/to/project1.jpg" alt="Project 1">
                     <div class="carousel-caption">
                         <h5>Project 1</h5>
-                        <p><a href="https://github.com/YOUR_USERNAME/project1" class="btn btn-light">View Project</a></p>
+                        <p><a href="https://github.com/ginginga/project1" class="btn btn-light">View Project</a></p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="project2.jpg" alt="Project 2">
+                    <img src="path/to/project2.jpg" alt="Project 2">
                     <div class="carousel-caption">
                         <h5>Project 2</h5>
-                        <p><a href="https://github.com/YOUR_USERNAME/project2" class="btn btn-light">View Project</a></p>
+                        <p><a href="https://github.com/ginginga/project2" class="btn btn-light">View Project</a></p>
                     </div>
                 </div>
                 <!-- 他のプロジェクトも同様に追加 -->
@@ -135,10 +141,10 @@
     </section>
 
     <div class="fixed-social">
-        <a href="https://www.instagram.com/gin_10n0" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
-        <a href="https://line.me/R/@820yntmm" target="_blank"><img src="line-icon.png" alt="LINE"></a>
-        <a href="https://www.tiktok.com/@gi_wellness" target="_blank"><img src="tiktok-icon.png" alt="TikTok"></a>
-        <a href="https://www.facebook.com/gingai9no" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/gin_19n0" target="_blank"><img src="path/to/instagram-icon.png" alt="Instagram"></a>
+        <a href="https://lin.ee/SMvzUSQ" target="_blank"><img src="path/to/line-icon.png" alt="LINE"></a>
+        <a href="https://www.tiktok.com/@gi_wellness" target="_blank"><img src="path/to/tiktok-icon.png" alt="TikTok"></a>
+        <a href="https://www.facebook.com/gingai9no" target="_blank"><img src="path/to/facebook-icon.png" alt="Facebook"></a>
     </div>
 
     <footer class="text-center mt-5">
